@@ -205,6 +205,28 @@ button{
    FIRST PAGE
 ===================================================== */
 
+.image-box{
+    width:190px;
+    height:190px;
+    border-radius:16px;
+    margin:10px auto 25px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    background:white;
+    border:4px solid rgba(255,255,255,.9);
+    box-shadow:0 0 50px rgba(200,110,255,.4);
+    animation:float 3s ease-in-out infinite;
+}
+
+.image-box img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display:block;
+}
+
 .hero{
     width:190px;
     height:190px;
@@ -743,8 +765,8 @@ input,select{
         A LITTLE BTS-INSPIRED QUESTION 💜
     </div>
 
-    <div class="hero">
-        💜
+    <div class="hero image-box">
+        <img src="images.jpg" alt="Date invitation picture">
     </div>
 
     <h1>
